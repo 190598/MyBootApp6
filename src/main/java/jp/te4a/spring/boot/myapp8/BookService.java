@@ -18,7 +18,6 @@ public class BookService {
 		BeanUtils.copyProperties(bookForm, bookBean);
 		bookRepository.create(bookBean);
 		return bookForm;
-		}
     }
 
 	public BookForm update(BookForm bookForm) {
